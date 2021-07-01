@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const name = 'Yui Futao'
 export const siteTitle = 'Next.js Sample Website'
@@ -27,8 +28,10 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <img
+            <Image
               src="/images/profile.png"
+              width={500}
+              height={500}
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
@@ -38,8 +41,10 @@ export default function Layout({ children, home }) {
           <>
             <Link href="/">
               <a>
-                <img
+                <Image
                   src="/images/profile.png"
+                  width={300}
+                  height={300}
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
@@ -57,7 +62,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>← 記事一覧に戻る</a>
           </Link>
         </div>
       )}
