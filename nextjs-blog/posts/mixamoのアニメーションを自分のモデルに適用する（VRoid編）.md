@@ -1,9 +1,7 @@
 ---
 title: 'mixamoのアニメーションを自分のモデルに適用する'
-date: '2020-06-01'
+date: '2020-07-01'
 ---
-
-===
 
 ![](https://i.imgur.com/FTvKJMh.gif)
 

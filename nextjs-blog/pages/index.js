@@ -14,9 +14,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          自己紹介<br></br>
-          2019年にゼルダBoWでゲーム実況を始めました。
-          <a href="https://twitter.com/twintail_vtuber">twitter</a>
+          VRChatやVRoid関連の作業を書き残しています。<br />
+          質問・要望は<a href="https://twitter.com/twintail_vtuber">twitter</a>までお気軽に！
         </p>
 
       </section>
@@ -37,7 +36,9 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
-    </Layout>
+      <a href="https://twitter.com/twintail_vtuber">twitter</a>
+
+    </Layout >
   )
 }
 

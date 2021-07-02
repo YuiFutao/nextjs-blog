@@ -1,6 +1,6 @@
 ---
 title: '前髪の前に目を描画する（MToon編）'
-date: '2020-01-01'
+date: '2020-02-01'
 ---
 
 ![](https://i.imgur.com/lpLVi29.png)
