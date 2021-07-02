@@ -25,3 +25,10 @@ img {
   max-width: 100%;
   display: block;
 }
+
+
+/* 背景色*/
+* {
+  color: #000000;
+  background-color: #faf1fa
+}

@@ -4,8 +4,8 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const name = 'Yui Futao'
-export const siteTitle = 'Next.js Sample Website'
+const name = '双尾ゆい / Yui Futao'
+export const siteTitle = 'ふたおブログ'
 
 export default function Layout({ children, home }) {
   return (

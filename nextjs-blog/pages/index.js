@@ -16,6 +16,7 @@ export default function Home({ allPostsData }) {
         <p>
           自己紹介<br></br>
           2019年にゼルダBoWでゲーム実況を始めました。
+          <a href="https://twitter.com/twintail_vtuber">twitter</a>
         </p>
 
       </section>
