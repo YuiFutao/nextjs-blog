@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          VRChatやVRoid関連の作業を書き残しています。<br />
+          VRChatやVRoid関連の作業メモ。<br />
           質問・要望は<a href="https://twitter.com/twintail_vtuber">twitter</a>までお気軽に！
         </p>
 
@@ -30,13 +30,13 @@ export default function Home({ allPostsData }) {
               </Link>
               <br />
               <small className={utilStyles.lightText}>
+                Update:&nbsp;
                 <Date dateString={date} />
               </small>
             </li>
           ))}
         </ul>
       </section>
-      <a href="https://twitter.com/twintail_vtuber">twitter</a>
 
     </Layout >
   )
