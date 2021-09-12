@@ -14,8 +14,9 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          VRChatやVRoid関連の作業メモ。<br />
-          質問・要望は<a href="https://twitter.com/twintail_vtuber">twitter</a>までお気軽に！
+          VRChatやVRoid関連の作業メモを公開しています<br />
+          質問・要望は<a href="https://twitter.com/twintail_vtuber">twitter</a>までお気軽に！<br />
+          その他のリンクは<a href="https://potofu.me/yui-futao">コチラ</a>
         </p>
 
       </section>
