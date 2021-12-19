@@ -1,6 +1,6 @@
 ---
 title: 'VRChatでVRoidモデルのなで肩を防ぐ方法'
-date: '2020-02-23'
+date: '2021-12-19'
 ---
 
 ![](https://i.imgur.com/ipNNaUI.png)
@@ -16,10 +16,9 @@ date: '2020-02-23'
 
 ## FBX形式へエクスポートする
 - `FBX Exporter` を使ってください
-    - 導入方法：[FBX Exporter のインストール](https://www.yuifutao.work/2021/05/07/post-168/)
-    - エクスポート手順：[FBX形式でエクスポート](https://www.yuifutao.work/2020/11/14/post-149/#outline__4)
-- ※FBXへエクスポートできるのはVRMモデルのprefabだけです
-	- Convert後のVRChat用prefabはFBX化に失敗するので注意
+    - 導入方法：[FBX Exporterのインストール方法（2021年Ver.）](https://www.yuifutao.work/posts/FBX%20Exporter%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95%EF%BC%882021%E5%B9%B4Ver.%EF%BC%89)
+	- ※FBXへエクスポートできるのはVRMモデルのprefabだけです
+		- Convert後のVRChat用prefabはFBX化に失敗するので注意
 <br><br>
 
 
